@@ -1,0 +1,115 @@
+@font-face{
+	font-family: CDL;
+	src: url(CODELIGHT.otf);
+}
+
+@font-face{
+	font-family: CDF;
+	src: url(CODEBOLD.otf);
+}
+
+
+
+body{
+	background-color:#404040;
+}
+
+
+#container{
+	background-color:#b3b3b3;
+	width:1200px;
+	max-width: 100%;
+	margin:auto;
+}
+
+h3{
+	font-family: CDF;
+	max-width: 50%;
+
+}
+
+p{
+	max-width: 50%;
+	font-family: CDL;
+}
+
+
+/*
+Header
+*/
+
+
+#header{
+	background-color: #d9d9d9;
+	width:100%;
+	height:120px;
+
+}
+
+#nav-bar{
+	display: inline
+}
+
+#profile-pic{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-top: 10px;
+	margin-left: 10px;
+	display: inline;
+}
+
+ul{
+	float:right;
+	margin-top: 20px;
+	margin-right: 20px;
+	
+}
+
+li{
+	margin: 5px;
+	list-style: none;
+	background-color:#d9d9d9;
+	display: inline-block;
+	
+}
+
+a:link{
+	text-decoration: none;
+	color:inherit;
+	font-family: CDF;
+}
+
+
+
+/*
+content
+*/
+
+#h3-home-content{
+	margin-left: 20px;
+}
+#home-content{
+	margin-left: 20px;
+}
+
+#main{
+	margin-left: 20px;
+	font-family: CDL;
+
+	
+
+}
+#gif{
+	
+}
+
+
+/*
+footer
+*/
+#footer{
+	background-color: #d9d9d9;
+	width: 100%;
+	height: 80px;
+}
